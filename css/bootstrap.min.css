@@ -2083,7 +2083,8 @@ pre code {
 .col-xs-7,
 .col-xs-8,
 .col-xs-9 {
-    float: left
+    float: left;
+    text-align: left;
 }
 
 .col-xs-12 {
