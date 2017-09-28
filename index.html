@@ -23,8 +23,8 @@
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <div class="navbar-header col-lg-12">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="true">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
@@ -32,15 +32,15 @@
       <a class="navbar-brand" href="#">About Me:</a>
     </div>
     <div>
-      <div class="collapse navbar-collapse right" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li class = "right"><a href="#section1">Basic Information</a></li>
-          <li class = "right"><a href="#section2">Skills</a></li>
-          <li class = "right"><a href="#section3">Languages</a></li>
-          <li class="dropdown right"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Academics and Memberships<span class="caret"></span></a>
+      <div class="navbar-collapse collapse in row" id="myNavbar" aria-expanded="true" style="">
+        <ul class="nav navbar-nav col-lg-12 col-md-12 col-sm-12">
+          <li class="col-lg-2 col-md-3 col-sm-3 col-xs-12 active"><a href="#section1">Basic Information</a></li>
+          <li class="col-lg-1 col-md-2 col-sm-2 col-xs-12"><a href="#section2">Skills</a></li>
+          <li class="col-lg-1 col-md-2 col-sm-2 col-xs-12"><a href="#section3">Languages</a></li>
+          <li class="dropdown col-lg-3 col-md-4 col-sm-5 col-xs-12"><a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">Academics and Memberships<span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#section41">Courses Taken</a></li>
-              <li><a href="#section42">Memberships</a></li>
+              <li class=""><a href="#section42">Memberships</a></li>
             </ul>
           </li>
         </ul>
