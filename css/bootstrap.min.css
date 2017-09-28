@@ -2084,14 +2084,14 @@ pre code {
 .col-lg-8,
 .col-lg-9 {
 
-    text-align: center
+    text-align: center !important;
 
 
 }
 
 .above {
 	
-	padding-top: 100px;
+	padding-top: 100px !important;
 
 }
 
