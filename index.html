@@ -8,17 +8,8 @@
   <link rel="stylesheet" href="./css/style.css">
   <script src="./scripts/jquery.min.js"></script>
   <script src="./scripts/bootstrap.min.js"></script>
-  <style>
-  body {
-      position: relative; 
-  }
-  #section1 {padding-top:50px;height:500px;color: #fff; background-color: rgb(28, 129, 184);}
-  #section2 {padding-top:50px;height:500px;color: #fff; background-color: rgb(28, 129, 184);}
-  #section3 {padding-top:50px;height:500px;color: #fff; background-color: rgb(28, 129, 184);}
-  #section41 {padding-top:50px;height:500px;color: #fff; background-color: rgb(28, 129, 184);}
-  #section42 {padding-top:50px;height:500px;color: #fff; background-color: rgb(28, 129, 184);}
-  </style>
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -36,12 +27,7 @@
         <ul class="nav navbar-nav col-lg-12 col-md-12 col-sm-12">
           <li class="col-lg-2 col-md-3 col-sm-3 col-xs-12 active"><a href="#section1">Basic Information</a></li>
           <li class="col-lg-1 col-md-2 col-sm-2 col-xs-12"><a href="#section2">Skills</a></li>
-          <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#section3">Languages</a></li>
-          <li class="dropdown col-lg-3 col-md-4 col-sm-5 col-xs-12"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Academics and Memberships<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#section41">Courses Taken</a></li>
-              <li class=""><a href="#section42">Memberships</a></li>
-            </ul>
+          <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#section3">Courses Taken</a></li>
           </li>
         </ul>
       </div>
@@ -49,30 +35,116 @@
   </div>
 </nav>    
 
-<div id="section1" class="container-fluid above">
-  <h1>Section 1</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+<div id="section1" class="container-fluid above row">
+  <h1 class = "col-xs-12">About Me: </h1>
+  <p><br></p>
+  <img src="ProfilePic.jpg" class="img-circle col-xs-11 col-sm-5 col-md-3 col-lg-3" alt="edargham" width="50%" height="70%"> 
+  <div class = "cont col-xs-12 col-sm-6 col-md-8 col-lg-8">
+  <p><strong>Name: </strong>Elias Dargham.</p>
+  <p><strong>Date of Birth: </strong>09/11/1998</p>
+  <p><strong>Hometown: </strong>Bouar, Lebanon.</p>
+  <p><strong>Education: </strong>2nd Year Computer Science at Lebanese American University Byblos, Lebanon.</p>
+  <p><strong>Fields of Interest: </strong> Operating Systems, Artificial Intelligence, Web and Big Data.</p>
+  <p>Favourite Quotes: </p>
+  <ul class="list-group">
+    <li class="list-group-item">"To Iterate is Human, To Recurse is Divine." ~L. Peter Deutsch</li>
+    <li class="list-group-item">"There are 10 types of people, those who understand binary, and those who don't." ~Anonymous" </li>
+    <li class="list-group-item">"I am not a person who particularly had heroes when growing up." ~Dennis Ritchie</li>
+  </ul>
 </div>
-<div id="section2" class="container-fluid">
-  <h1>Section 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  
 </div>
-<div id="section3" class="container-fluid">
-  <h1>Section 3</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+
+<div id="section2" class="container-fluid row">
+
+  <h1 class = "col-xs-12">Skills: </h1>
+  
+  <table class="table table-condensed col-xs-12">
+    <thead>
+      <tr>
+        <th>Skill</th>
+        <th>Progress</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Java Programming</td>
+        <td>
+        	<div class="progress">
+  				<div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+    			<span class="sr-only">65% Complete</span>
+ 			</div>
+		</div>
+        </td>
+      </tr>
+      <tr>
+        <td>C Programming</td>
+        <td>        	
+        	<div class="progress">
+  				<div class="progress-bar" role="progressbar" aria-valuenow="42" aria-valuemin="0" aria-valuemax="100" style="width:42%">
+    			<span class="sr-only">42% Complete</span>
+ 			</div>
+ 		</td>
+      </tr>
+      <tr>
+        <td>Web and Database Programming</td>
+        <td>        	
+        	<div class="progress">
+  				<div class="progress-bar" role="progressbar" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100" style="width:34%">
+    			<span class="sr-only">34% Complete</span>
+ 			</div>
+ 		</td>
+      </tr>
+      <tr>
+        <td>French Language</td>
+        <td>        	
+        	<div class="progress">
+  				<div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+    			<span class="sr-only">55% Complete</span>
+ 			</div>
+ 		</td>
+      </tr>
+      <tr>
+        <td>English Language</td>
+        <td>        	
+        	<div class="progress">
+  				<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+    			<span class="sr-only">85% Complete</span>
+ 			</div>
+ 		</td>
+      </tr>
+      <tr>
+        <td>Arabic Language</td>
+        <td>        	
+        	<div class="progress">
+  				<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+    			<span class="sr-only">100% Complete</span>
+ 			</div>
+ 		</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-<div id="section41" class="container-fluid">
-  <h1>Section 4 Submenu 1</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section42" class="container-fluid">
-  <h1>Section 4 Submenu 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+
+<div id="section3" class="container-fluid row">
+  <h1>Courses Taken and Taking</h1>
+  	<p><br></p>
+    <ul class="unord list-group col-xs-11">
+    <li class="list-group-item">Discrete Structures I</li>
+    <li class="list-group-item">Intro to Object Oriented Programming</li>
+    <li class="list-group-item">Objects and Data Abstraction</li>
+    <li class="list-group-item">Computer Organization</li>
+    <li class="list-group-item">Algorithms and Data Structures</li>
+    <li class="list-group-item">Operating Systems</li>
+    <li class="list-group-item">Database Management Systems</li>
+    <li class="list-group-item">Web Programming</li>
+    <li class="list-group-item">Calculus III</li>
+    <li class="list-group-item">Academic English</li>
+    <li class="list-group-item">Advanced Academic English</li>
+    <li class="list-group-item">Basic Biology for Computer Science</li>
+    <li class="list-group-item">Basic Health</li>
+    <li class="list-group-item">Digital Photography I</li>
+  </ul>
 </div>
 
 </body>
